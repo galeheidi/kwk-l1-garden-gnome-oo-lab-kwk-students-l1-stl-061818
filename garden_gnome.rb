@@ -14,7 +14,7 @@ class GardenGnomes
     {evil_action => "Gnowing on a tree!!"}
 end 
 def shout 
-  {shout => ""} 
+  {shout => "GNARLY"} 
 end
 def introduce_self
   age
