@@ -1,6 +1,6 @@
 # Code your instances here
 class GardenGnomes
-  attr_accessor :name, :age, :gluten_allergies :hat_color
+  attr_accessor :name,:age,:gluten_allergies,:hat_color
   attr_reader :personality 
   def initialize(name, age, gluten_allergy, personality)
     @name = name
@@ -14,10 +14,9 @@ class GardenGnomes
     {evil_action => "Gnowing on a tree!!"}
 end 
 def shout 
-  {
-gnaw
-
+  {} 
+end
 def introduce_self
   age
   puts "Hello humans, my name is #{name} I am #{age}"
-  
+end
