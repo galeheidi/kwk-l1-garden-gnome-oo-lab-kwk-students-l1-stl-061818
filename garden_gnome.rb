@@ -7,6 +7,6 @@ class GardenGnomes
     @gluten_allergy = gluten_allergy
     @personality = evil
   hat_color = red 
-end 
+  end 
 end 
     
