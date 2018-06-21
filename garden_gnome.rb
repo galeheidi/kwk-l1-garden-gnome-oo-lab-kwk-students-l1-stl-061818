@@ -13,4 +13,6 @@ class GardenGnomes
   def gnaw
     {evil_action => "Gnowing on a tree!!"}
 end 
+def shout 
+  {
 gnaw
