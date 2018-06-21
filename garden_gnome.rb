@@ -11,7 +11,10 @@ class GardenGnomes
     hat_color = red 
   end 
   gnome1 = GardenGnomes.now 
-  gnome2 = GardenGnomes.now()
+  gnome2 = GardenGnomes.now("Walmart the Worst")
+  gnome3 = GardenGnomes.now("James the Jerk")
+  gnome4 = GardenGnomes.now("Alfred the Abhorrent")
+  
   def gnaw
     {evil_action => "Gnowing on a tree!!"}
 end 
