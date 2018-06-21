@@ -6,7 +6,7 @@ class GardenGnomes
     @name = name
     @age = age 
     @gluten_allergy = gluten_allergy
-    @personality = evil
+    @personality = evil_action
     @hat_color = hat_color
     hat_color = red 
   end 
@@ -16,3 +16,8 @@ end
 def shout 
   {
 gnaw
+
+def introduce_self
+  age
+  puts "Hello humans, my name is #{name} I am #{age}"
+  
