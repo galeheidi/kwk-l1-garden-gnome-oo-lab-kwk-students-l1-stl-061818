@@ -10,6 +10,8 @@ class GardenGnomes
     @hat_color = hat_color
     hat_color = red 
   end 
+  gnome1 = GardenGnomes.now 
+  gnome2 = GardenGnomes.now()
   def gnaw
     {evil_action => "Gnowing on a tree!!"}
 end 
