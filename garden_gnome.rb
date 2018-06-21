@@ -11,6 +11,6 @@ class GardenGnomes
     hat_color = red 
   end 
   def gnaw
-    {
+    {evil_action => "Gnowing on a tree!!"
 end 
     
